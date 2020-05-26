@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(image/treepicture.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+ul li .active a {
+    background-color: #fff;
+    color: black;
+}
+ul li a {
+    text-decoration: none;
+    color: #01DFD7;
+    padding:  5px 20px;
+    border: 2px solid transparent;
+    transition: 0.6s ease ;
+}
+
+
+   ul li a:hover {
+       background-color: green;
+
+   }
+  
+.logo img {
+    float: left ;
+    width: 150px;
+    height: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+}
+
+.title h1{
+    color: #01DFD7;
+    font-size: 45px ;
+}
+.button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+}
+.title p {
+    color: white;
+}
+.title h2 {
+    color:#01DFD7 ;
+    font-size: 40px;
+}
+.News{
+    color:white;
+    font-size: 20px;
+}
+.carousel-container{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 350px;
+
+
+}
